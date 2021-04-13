@@ -1,12 +1,8 @@
-package com.siven.datastruct;
+package com.siven.datastruct.swordoffer;
 
-import com.siven.datastruct.stack.MyStack1;
-import com.siven.datastruct.stack.MyStack2;
 import com.siven.datastruct.tree.model.TreeNode;
 
 import java.util.Arrays;
-
-import jdk.nashorn.internal.ir.ThrowNode;
 
 /**
  * author siven
@@ -23,7 +19,7 @@ import jdk.nashorn.internal.ir.ThrowNode;
  * /  \
  * 15   7
  **/
-public class Sample {
+public class Offer7_ {
 
     public static void main(String[] args) {
         int preorder[] = {1, 2, 3};

@@ -42,6 +42,8 @@ public class TreeNode<T> {
     public String toString() {
         return "TreeNode{" +
                 "data=" + data +
+                ", leftNode=" + leftNode +
+                ", rightNode=" + rightNode +
                 '}';
     }
 }
