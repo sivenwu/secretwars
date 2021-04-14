@@ -1,4 +1,4 @@
-package com.siven.datastruct;
+package com.siven.datastruct.swordoffer;
 
 /**
  * author siven
@@ -13,15 +13,16 @@ package com.siven.datastruct;
  * 链接：https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
-public class Sample4 {
+public class Offer11_ {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        int nums[] = {1,1};
+        int nums[] = {3, 1};
         System.out.println(minArray2(nums) + "耗时：" + (System.currentTimeMillis() - start));
 
     }
 
+    // 冒泡搜索
     static public int minArray(int[] numbers) {
         int result = -1;
         // 排序
@@ -42,22 +43,25 @@ public class Sample4 {
         return result;
     }
 
-    // 解题关键：输入一个递增排序的数组的一个旋转
+    // 二分搜索
     static public int minArray2(int[] numbers) {
-        int result = -1;
-        if (numbers.length == 1) {
-            result = numbers[0];
-        }else {
-            // 获取旋转点
-            int index = numbers.length / 2;
-            int startRight = index + 1; // 右边起始点
-            if (numbers[startRight] < numbers[index]) {
-                result = numbers[startRight];
-            }else{
-                result = numbers[index-1];
+        // 记录开始和结束位置
+        int start = 0;
+        int end = numbers.length - 1;
+        while (start < end) {
+            // 找出中间的位置
+            int mid = ((end - start) >> 1)+start; // 右移1等于除2
+            if (numbers[mid] > numbers[end]) {
+                // 中间比右边大
+                start = mid + 1;
+            } else if (numbers[mid] < numbers[end]){
+                // 中间比右边小
+                end = mid;
+            } else{
+                // 等于
+                end--;
             }
         }
-
-        return result;
+        return numbers[start];
     }
 }
