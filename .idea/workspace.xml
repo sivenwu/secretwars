@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e22e0a-98af-4a18-b143-b32f972237b9" name="Default Changelist" comment="" />
+    <list default="true" id="a2e22e0a-98af-4a18-b143-b32f972237b9" name="Default Changelist" comment="这是我合并后的提交">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secretwars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/secretwars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer12_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer12_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer13_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer13_.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,23 +53,45 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+                <branch-info repo="$PROJECT_DIR$" source="dev_tmp" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_tmp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1eqUGgkTbkrJrUjYR6SvaSknTW5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -42,13 +100,13 @@
       <recent name="com.siven.datastruct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueSample">
-    <configuration name="MyLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siven.datastruct.link.MyLinkList" />
+  <component name="RunManager" selected="Application.Offer13_">
+    <configuration name="Offer12_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siven.datastruct.swordoffer.Offer12_" />
       <module name="secretwars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siven.datastruct.stack.*" />
+          <option name="PATTERN" value="com.siven.datastruct.swordoffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siven.datastruct.queue.QueueSample" />
+    <configuration name="Offer13_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siven.datastruct.swordoffer.Offer13_" />
       <module name="secretwars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siven.datastruct.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siven.datastruct.stack.Sample" />
-      <module name="secretwars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.siven.datastruct.stack.*" />
+          <option name="PATTERN" value="com.siven.datastruct.swordoffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,9 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueSample" />
-        <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.MyLinkList" />
+        <item itemvalue="Application.Offer13_" />
+        <item itemvalue="Application.Offer12_" />
       </list>
     </recent_temporary>
   </component>
@@ -103,68 +147,141 @@
       <workItem from="1595048524174" duration="2583000" />
       <workItem from="1595479159370" duration="13706000" />
     </task>
+    <task id="LOCAL-00001" summary="我是第一个提交记录">
+      <created>1619019221908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019221908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="我是第二个提交记录">
+      <created>1619019271165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019271165</updated>
+    </task>
+    <task id="LOCAL-00003" summary="这是我合并后的提交">
+      <created>1619019739739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019739739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev_tmp" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dev_tmp" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dev" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="我是第一个提交记录" />
+    <MESSAGE value="我是第二个提交记录" />
+    <MESSAGE value="这是我合并后的提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是我合并后的提交" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="78" key="#Project_Structure" timestamp="1595048537413">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="1704" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619538633917">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state x="240" y="78" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1595048537413" />
-    <state x="453" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1595754639405">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="1704" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619538633917" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom" timestamp="1619543624090">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state x="453" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1595754639405" />
-    <state width="435" height="466" key="DebuggerActiveHint" timestamp="1595771032105">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543624090" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center" timestamp="1619543624089">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="435" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1595771032105" />
-    <state width="1238" height="449" key="GridCell.Tab.0.bottom" timestamp="1595772343451">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543624089" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left" timestamp="1619543624088">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="449" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595772343451" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1595168620547" />
-    <state width="1238" height="449" key="GridCell.Tab.0.center" timestamp="1595772343450">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543624088" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right" timestamp="1619543624090">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="449" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595772343450" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1595168620545" />
-    <state width="1238" height="449" key="GridCell.Tab.0.left" timestamp="1595772343449">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543624090" />
+    <state width="1899" height="404" key="GridCell.Tab.1.bottom" timestamp="1619543533570">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="449" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595772343449" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1595168620544" />
-    <state width="1238" height="449" key="GridCell.Tab.0.right" timestamp="1595772343450">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="404" key="GridCell.Tab.1.bottom/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543533570" />
+    <state width="1899" height="404" key="GridCell.Tab.1.center" timestamp="1619543533567">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="449" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595772343450" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1595168620546" />
-    <state width="1238" height="293" key="GridCell.Tab.1.bottom" timestamp="1595772219923">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="404" key="GridCell.Tab.1.center/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543533567" />
+    <state width="1899" height="404" key="GridCell.Tab.1.left" timestamp="1619543533567">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595772219923" />
-    <state width="1238" height="293" key="GridCell.Tab.1.center" timestamp="1595772219921">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="404" key="GridCell.Tab.1.left/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543533567" />
+    <state width="1899" height="404" key="GridCell.Tab.1.right" timestamp="1619543533568">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1595772219921" />
-    <state width="1238" height="293" key="GridCell.Tab.1.left" timestamp="1595772219921">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1899" height="404" key="GridCell.Tab.1.right/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619543533568" />
+    <state x="365" y="120" key="RollbackChangesDialog" timestamp="1619019331634">
+      <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1595772219921" />
-    <state width="1238" height="293" key="GridCell.Tab.1.right" timestamp="1595772219922">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="365" y="120" key="RollbackChangesDialog/0.25.1280.775@0.25.1280.775" timestamp="1619019331634" />
+    <state x="141" y="48" key="SettingsEditor" timestamp="1619022549423">
+      <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1595772219922" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1595479217317">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="141" y="48" key="SettingsEditor/0.25.1280.775@0.25.1280.775" timestamp="1619022549423" />
+    <state x="240" y="136" key="Vcs.Push.Dialog.v2" timestamp="1619019741347">
+      <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595479217317" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595756298288">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="240" y="136" key="Vcs.Push.Dialog.v2/0.25.1280.775@0.25.1280.775" timestamp="1619019741347" />
+    <state x="2023" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619538903466">
+      <screen x="1280" y="-147" width="1920" height="1055" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595756298288" />
+    <state x="2023" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1280.775/1280.-147.1920.1055@1280.-147.1920.1055" timestamp="1619538903466" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -184,11 +301,32 @@
           <line>43</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="cursor &gt;= 6" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer12_.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer13_.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="result" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/com/siven/datastruct/swordoffer/Offer13_.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrays[0]" language="JAVA" />
+        <watch expression="Integer.parseInt(String.valueOf(i) + String.valueOf(j))" language="JAVA" />
+        <watch expression="(String.valueOf(i) + String.valueOf(j)).toCharArray()" language="JAVA" />
+        <watch expression="(String.valueOf(i) + String.valueOf(j))" language="JAVA" />
+        <watch expression="&quot;00&quot;.toCharArray()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
