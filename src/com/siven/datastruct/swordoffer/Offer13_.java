@@ -29,51 +29,29 @@ package com.siven.datastruct.swordoffer;
 public class Offer13_ {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().movingCount(2,3,1));
+        System.out.println(new Solution().movingCount(3,2,17));
     }
 
     public static class Solution {
         public int movingCount(int m, int n, int k) {
             boolean visited[][] = new boolean[m][n];
-            int start = 0;
-            for (int i = 0;i<visited.length;i++){
-                for (int j = 0;j<visited[0].length;j++){
-                    if (gotoAction(i,j,k,visited,start)){
-                        return cursor;
-                    }
-                }
-            }
-            return cursor;
+            return dfs(0,0,k,visited);
         }
 
-        // 终止条件:
-        int cursor = 0;
-        private boolean gotoAction(int i, int j, int k, boolean visited[][], int start) {
+        private int dfs(int i, int j, int k, boolean visited[][]) {
             if (i < 0 || j < 0 || i >= visited.length || j >= visited[0].length || visited[i][j]){
-                return false;
+                return 0;
             }
-            int sum =0;
-            int tmp = Integer.parseInt(i+""+j);
-            sum = numberSum(tmp);
-
-            if (sum <= 0 || sum > k) {
-                return false;
-            }
-
-            if (i == visited.length - 2 && j == visited[0].length-2) {
-                cursor++;
-                return true;
+            if (numberSum(Integer.parseInt(i+""+j)) > k) {
+                return 0;
             }
 
             visited[i][j] = true;
-            boolean result = gotoAction(i + 1, j, k, visited, start + 1)
-                    || gotoAction(i, j + 1, k, visited, start + 1)
-                    || gotoAction(i - 1, j, k, visited, start + 1)
-                    || gotoAction(i, j - 1, k, visited, start + 1);
-            visited[i][j] = false;
-            if (result){
-                cursor++;
-            }
+            int result = dfs(i + 1, j, k, visited)
+                    + dfs(i, j + 1, k, visited)
+                    + dfs(i - 1, j, k, visited)
+                    + dfs(i, j - 1, k, visited)+1;
+//            visited[i][j] = false;
             return result;
         }
 
