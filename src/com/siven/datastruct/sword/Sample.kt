@@ -1,7 +1,4 @@
-package com.siven.datastruct.swordoffer
-
-import com.siven.datastruct.queue.MyQueue1
-import com.siven.datastruct.queue.MyQueue2
+package com.siven.datastruct.sword
 
 /**
  * author siven

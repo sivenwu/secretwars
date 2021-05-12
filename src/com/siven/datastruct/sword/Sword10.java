@@ -1,4 +1,4 @@
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 /**
  * author siven
@@ -14,7 +14,7 @@ package com.siven.datastruct.swordoffer;
  * 链接：https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
-public class Offer10 {
+public class Sword10 {
 
     public static void main(String[] args) {
         System.out.println(numWays(5));

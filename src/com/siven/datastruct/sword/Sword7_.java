@@ -1,4 +1,4 @@
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 import com.siven.datastruct.tree.model.TreeNode;
 
@@ -19,7 +19,7 @@ import java.util.Arrays;
  * /  \
  * 15   7
  **/
-public class Offer7_ {
+public class Sword7_ {
 
     public static void main(String[] args) {
         int preorder[] = {1, 2, 3};

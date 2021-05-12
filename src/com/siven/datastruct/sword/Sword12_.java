@@ -1,4 +1,4 @@
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 /**
  * author siven
@@ -7,7 +7,7 @@ package com.siven.datastruct.swordoffer;
  *
  * @link https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/
  **/
-public class Offer12_ {
+public class Sword12_ {
 
     /**
      * 背景：
@@ -19,7 +19,7 @@ public class Offer12_ {
     public static void main(String[] args) {
         char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
         String word = "ABCCED";
-        System.out.println(new Offer12_().exist(board, word));
+        System.out.println(new Sword12_().exist(board, word));
     }
 
     public boolean exist(char[][] board, String word) {

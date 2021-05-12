@@ -1,4 +1,4 @@
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 /**
  * author siven
@@ -13,7 +13,7 @@ package com.siven.datastruct.swordoffer;
  * 链接：https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
-public class Offer11_ {
+public class Sword11_ {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();

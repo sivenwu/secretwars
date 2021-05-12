@@ -1,9 +1,9 @@
-package com.siven.datastruct.swordoffer
+package com.siven.datastruct.sword
 
 import java.lang.StringBuilder
 
 //请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
-object Offer5 {
+object Sword5 {
     @JvmStatic
     fun main(args: Array<String>) {
         var s = "We are happy."

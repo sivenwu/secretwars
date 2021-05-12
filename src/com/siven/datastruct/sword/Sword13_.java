@@ -1,4 +1,4 @@
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 /**
  * author siven
@@ -26,7 +26,7 @@ package com.siven.datastruct.swordoffer;
  * 链接：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
-public class Offer13_ {
+public class Sword13_ {
 
     public static void main(String[] args) {
         System.out.println(new Solution().movingCount(3,2,17));

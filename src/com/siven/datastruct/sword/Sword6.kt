@@ -1,13 +1,12 @@
-package com.siven.datastruct.swordoffer
+package com.siven.datastruct.sword
 
 import com.siven.datastruct.models.ListNode
 import com.siven.datastruct.utils.string
-import java.lang.StringBuilder
 import java.util.*
 
 // 剑指 Offer 06. 从尾到头打印链表
 // 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
-object Offer6 {
+object Sword6 {
 
     @JvmStatic
     fun main(args: Array<String>) {

@@ -1,5 +1,5 @@
 
-package com.siven.datastruct.swordoffer;
+package com.siven.datastruct.sword;
 
 /**
  * author siven
@@ -29,7 +29,7 @@ package com.siven.datastruct.swordoffer;
  **/
 // 贪心算法 or 动态规划
 // https://blog.csdn.net/u013309870/article/details/75193592
-public class Offer14 {
+public class Sword14 {
 
     public static void main(String[] args) {
 
