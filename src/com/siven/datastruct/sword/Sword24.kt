@@ -7,7 +7,7 @@ import com.siven.datastruct.models.ListNode
  * coding : siven
  * description : 翻转链表
  */
-object Sword23 {
+object Sword24 {
 
     @JvmStatic
     fun main(args: Array<String>) {
@@ -20,7 +20,7 @@ object Sword23 {
         node.next = ListNode(4)
         node = node.next!!
         node.next = ListNode(5)
-        print(Sword23.reverseList(head))
+        print(Sword24.reverseList(head))
     }
 
     // 第一次移动：
