@@ -6,7 +6,7 @@ package com.siven.datastruct.sword.util;
  * description :
  */
 public class Log {
-    public void i(String message) {
+    public static void i(String message) {
         System.out.println(message);
     }
 }
