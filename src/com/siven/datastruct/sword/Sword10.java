@@ -17,7 +17,10 @@ package com.siven.datastruct.sword;
 public class Sword10 {
 
     public static void main(String[] args) {
-        System.out.println(numWays(5));
+        long start = System.currentTimeMillis();
+        System.out.println(numWays(500) + " - " + (System.currentTimeMillis() - start));
+        start = System.currentTimeMillis();
+        System.out.println(numWays1(500) + " - " + (System.currentTimeMillis() - start));
     }
 
     // 解题思路
@@ -52,5 +55,16 @@ public class Sword10 {
             }
         }
         return sum;
+    }
+
+    static public int numWays1(int n) {
+        int dp[] = new int[n];
+        dp[0] = 1;
+        dp[1] = 1;
+        for(int i = 2;i<dp.length;i++){
+            dp[i] = (dp[i-1] + dp[i-2]) % 1000000007;
+        }
+        // 这里结果需要加上f(n-1)的数量
+        return (dp[dp.length-1] + dp[dp.length-2] )% 1000000007;
     }
 }

@@ -96,10 +96,10 @@ public class Sword7_ {
         TreeNode root = new TreeNode(rootVal);
         // 中序遍历中，根节点左边的所有元素都在根节点左分支
         // 所以这里前序范围为1~inRootIndex(中序遍历中根节点的位置),中序则是中序遍历的左边，即0-inRootIndex
-        root.leftNode = buildTree(Arrays.copyOfRange(preorder, 1, 1 + inRootIndex), Arrays.copyOfRange(inorder, 0, inRootIndex));
+        root.leftNode = buildTree2(Arrays.copyOfRange(preorder, 1, 1 + inRootIndex), Arrays.copyOfRange(inorder, 0, inRootIndex));
         // 中序遍历中，根节点右边的所有元素都在根节点右分支
         // 所以这里前序范围为inRootIndex+1~n(最后一个节点),中序则是中序遍历的右边，即inRootIndex+1~n
-        root.rightNode = buildTree(Arrays.copyOfRange(preorder, 1 + inRootIndex, n), Arrays.copyOfRange(inorder, inRootIndex + 1, n));
+        root.rightNode = buildTree2(Arrays.copyOfRange(preorder, 1 + inRootIndex, n), Arrays.copyOfRange(inorder, inRootIndex + 1, n));
         return root;
     }
 }

@@ -6,6 +6,20 @@ package com.siven.datastruct.sword;
  * desc: 典型的矩阵搜索问题，可使用 深度优先搜索（DFS）+ 剪枝 解决
  *
  * @link https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/
+ *
+ * 剑指 Offer 12. 矩阵中的路径
+ * 
+ * 给定一个m x n 二维字符网格board 和一个字符串单词word 。如果word 存在于网格中，返回 true ；否则，返回 false 。
+ *
+ * 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+ *
+ * 
+ *
+ *
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
 public class Sword12_ {
 
@@ -20,6 +34,13 @@ public class Sword12_ {
         char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
         String word = "ABCCED";
         System.out.println(new Sword12_().exist(board, word));
+
+        // 回溯三步走1-3
+        boolean visityed[][] = new boolean[board.length][board[0].length];
+        // 1. 选择
+
+        // 2. 递归
+        // 3. 撤销选择
     }
 
     public boolean exist(char[][] board, String word) {
